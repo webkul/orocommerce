@@ -1,0 +1,31 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: oro_commerce
+    database_user: oro_commerce
+    database_password: oro_commerce
+    database_drop: none
+    mailer_transport: mail
+    mailer_host: null
+    mailer_port: null
+    mailer_encryption: null
+    mailer_user: null
+    mailer_password: null
+    websocket_bind_address: 0.0.0.0
+    websocket_bind_port: 8080
+    websocket_frontend_host: '*'
+    websocket_frontend_port: 8080
+    websocket_backend_host: '*'
+    websocket_backend_port: 8080
+    web_backend_prefix: /admin
+    session_handler: session.handler.native_file
+    locale: en
+    secret: de6b1e79d0e31c35dd1ba1f5986a48fa
+    installed: null
+    assets_version: b301d281
+    assets_version_strategy: time_hash
+    message_queue_transport: dbal
+    message_queue_transport_config: null
+
+
