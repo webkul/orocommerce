@@ -40,11 +40,13 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
  
 COPY mysql.sh /etc/mysql.sh
 
-RUN chmod +x /etc/mysql.sh
+RUN chmod a+x /etc/mysql.sh
 
 RUN /etc/init.d/mysql restart
 
 COPY composer.phar /bin/composer
+
+RUN chmod a+x /bin/composer
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install git
 
