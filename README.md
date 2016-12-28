@@ -5,45 +5,45 @@ OroCommerce is a open-source Business to Business Commerce application built wit
 # SYSTEM REQUIREMENTS FOR OROCOMMERCE
 
 > Operating System: 
-Linux x86, x86-64
-Windows 7 and 8
-Mac OS X 10.9 and above.
+- Linux x86, x86-64
+- Windows 7 and 8
+- Mac OS X 10.9 and above.
 
 > Browsers:
-Mozilla Firefox 6 and above
-Google Chrome 31 and above
-Microsoft Internet Explorer 10 and above
-Safari
-Opera 12.16 and above
+- Mozilla Firefox 6 and above
+- Google Chrome 31 and above
+- Microsoft Internet Explorer 10 and above
+- Safari
+- Opera 12.16 and above
 
 > Web Servers:
-Apache 2.2.x
-Nginx
-Lighttpd
+- Apache 2.2.x
+- Nginx
+- Lighttpd
 
 > Database Management Systems:
-MySQL 5.1 and above
-PostgreSQL/EnterpriseDB 9.1 and above
+- MySQL 5.1 and above
+- PostgreSQL/EnterpriseDB 9.1 and above
 
 > PHP 5.5.9 and above.
 
 > PHP extensions:
-ctype
-fileinfo
-GD 2.0 and above
-intl
-JSON
-Mcrypt
-PCRE 8.0 and above
-SimpleXML
-Tokenizer
+- ctype
+- fileinfo
+- GD 2.0 and above
+- intl
+- JSON
+- Mcrypt
+- PCRE 8.0 and above
+- SimpleXML
+- Tokenizer
 
 > PHP settings:
-date.timezone must be set
-detect_unicode must be disabled in php.ini
-memory_limit should be at least 512M
-xdebug.scream must be disabled in php.ini
-xdebug.show_exception_trace must be disabled in php.ini
+- date.timezone must be set
+- detect_unicode must be disabled in php.ini
+- memory_limit should be at least 512M
+- xdebug.scream must be disabled in php.ini
+- xdebug.show_exception_trace must be disabled in php.ini
  
 # DOCKERIZING OROCOMMERCE-APPLICATION
 
