@@ -84,8 +84,7 @@ After installation, launch the orocommerce application. You will see frontend as
 
 You can login to admin panel by  http://your-server-name/admin:
 
-![Alt text](https://raw.githubusercontent.com/webkul/orocommerce/master/Screenshot%20from%202016-12-28%2012%3A47%3A04.png)
-
+![Alt text](https://raw.githubusercontent.com/webkul/orocommerce/master/Screenshot%20from%202016-12-28%2013%3A36%3A23.png)
 
 
 Enter the admin credentials and you can enter the admin dashboard:
