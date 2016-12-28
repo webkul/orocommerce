@@ -73,3 +73,25 @@ You can see running conatiner, run command "docker ps" .
 To see all the container,run command "docker ps -a" .
 
 To remove a container, run command "docker rm container_name"
+
+After launching the container, hit the URL http://your-server-name/install.php and begin with the installation .
+
+After installation, launch the orocommerce application. You will see frontend as:
+
+![Alt text](https://raw.githubusercontent.com/webkul/orocommerce/master/Screenshot%20from%202016-12-28%2012%3A45%3A12.png)
+
+
+
+You can login to admin panel by  http://your-server-name/admin:
+
+![Alt text](https://raw.githubusercontent.com/webkul/orocommerce/master/Screenshot%20from%202016-12-28%2012%3A47%3A04.png)
+
+
+
+Enter the admin credentials and you can enter the admin dashboard:
+
+![Alt text](https://raw.githubusercontent.com/webkul/orocommerce/master/Screenshot%20from%202016-12-28%2012%3A46%3A41.png)
+
+
+
+GOOD LUCK WITH DOCKERIZING THE OROCOMMERCE_APPLICATION.
