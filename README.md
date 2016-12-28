@@ -53,6 +53,8 @@ Creating a Dockerfile is not a cumbersome task as you can directly use commands 
 
 Also, supervisor manage multiple processes, here managing apache2 and mysql server. Composer.phar has already been cloned from its repository and ready to be copied in dockerfile. Parameters.yml holds database and other configuration setup for orocommerce (that can be changed as per requirements).
 
+To get started with, clone or download this repository and unzip the folder.
+
 To build Docker image from dockerfile, run command "docker build -t image_name /path/of/Dockerfile"
 
 To list the images, use "docker images" command.
