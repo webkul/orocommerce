@@ -57,7 +57,7 @@ To build Docker image from dockerfile, run command "docker build -t image_name /
 
 To list the images, use "docker images" command.
 
-TO remove an image, use "docker rmi image_name" command.
+To remove an image, use "docker rmi image_name" command.
 
 To begin with its docker image run command "docker run -d -p 80:80 -p 3306:3306 image_name:latest"
 
