@@ -61,7 +61,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install git
 
 
 ## clone orocommerce application
-RUN cd /var/www/ && git clone --recursive -b 1.0.0-beta.5 https://github.com/orocommerce/orocommerce-application.git
+RUN cd /var/www/ && git clone --recursive -b 1.0.0 https://github.com/orocommerce/orocommerce-application.git
 
 ## install require dependencies for orocommerce
 RUN cd /var/www/orocommerce-application/ && composer global require fxp/composer-asset-plugin:1.2.2
